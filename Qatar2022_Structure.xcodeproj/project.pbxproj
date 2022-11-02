@@ -13,6 +13,7 @@
 		595D59452912533A0000A228 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 595D59432912533A0000A228 /* Main.storyboard */; };
 		595D59472912533B0000A228 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 595D59462912533B0000A228 /* Assets.xcassets */; };
 		595D594A2912533B0000A228 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 595D59482912533B0000A228 /* LaunchScreen.storyboard */; };
+		595D5952291253630000A228 /* Nation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595D5951291253630000A228 /* Nation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		595D59462912533B0000A228 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		595D59492912533B0000A228 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		595D594B2912533B0000A228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		595D5951291253630000A228 /* Nation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		595D593C2912533A0000A228 /* Qatar2022_Structure */ = {
 			isa = PBXGroup;
 			children = (
+				595D5951291253630000A228 /* Nation.swift */,
 				595D593D2912533A0000A228 /* AppDelegate.swift */,
 				595D593F2912533A0000A228 /* SceneDelegate.swift */,
 				595D59412912533A0000A228 /* ViewController.swift */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				595D5952291253630000A228 /* Nation.swift in Sources */,
 				595D59422912533A0000A228 /* ViewController.swift in Sources */,
 				595D593E2912533A0000A228 /* AppDelegate.swift in Sources */,
 				595D59402912533A0000A228 /* SceneDelegate.swift in Sources */,
